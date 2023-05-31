@@ -77,10 +77,4 @@ body{
     transition: all linear 160ms; 
 }
 
-.form a{
-    color: #000000
-}
 
-.form a:hover{
-    color: green;
-}
