@@ -1,0 +1,77 @@
+body{ 
+
+    background-color: #c5cea5; 
+
+    font-family: arial; 
+
+    margin: 0; 
+
+    padding: 0; 
+
+  } 
+
+  
+
+  .pagina{ 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+    background-color: #ffffff; 
+
+    border-radius: 10px; 
+
+    padding: 40px; 
+
+  } 
+
+  
+
+  .form{ 
+
+    display: flex; 
+
+    flex-direction: column; 
+
+  } 
+
+  
+
+  p{ 
+
+    text-align: center; 
+
+    font-weight: bold; 
+
+  } 
+
+  
+
+  .btn{ 
+
+    background-color: #4d5c17; 
+
+    font-weight: bold; 
+
+    color: #ffffff; 
+
+  } 
+
+  
+
+  .form input{ 
+
+    padding: 15px; 
+
+    font-size: 14px; 
+
+    border: 1px solid #4d5c17; 
+
+    margin-bottom: 20px; 
+
+    margin-top: 5px; 
+
+    border-radius: 4px; 
+
+    transition: all linear 160ms; 
