@@ -50,23 +50,14 @@ body{
     color: #ffffff; 
 
   } 
-
-  .form input{ 
-
-    padding: 15px; 
-
-    font-size: 14px; 
-
-    border: 1px solid #4d5c17; 
-
-    margin-bottom: 20px; 
-
-    margin-top: 5px; 
-
-    border-radius: 4px; 
-
-    transition: all linear 160ms; 
-}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #5e285b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
 
 .form a{
     color: #000000;
