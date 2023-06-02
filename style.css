@@ -53,6 +53,11 @@ body{
 
   }
 
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ffff
+  }
 input[type="submit"] {
     width: 100%;
     padding: 10px;
