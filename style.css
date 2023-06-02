@@ -50,6 +50,7 @@ body{
     color: #ffffff; 
 
   }
+
 input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -58,6 +59,7 @@ input[type="submit"] {
     border: none;
     cursor: pointer;
   }
+
 input[type="submit"] {
     width: 100%;
     padding: 10px;
