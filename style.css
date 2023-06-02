@@ -1,86 +1,42 @@
-body{ 
-
-    background-color: #c5cea5; 
-
-    font-family: arial; 
-
-    margin: 0; 
-
-    padding: 0; 
-
-  } 
-
-  
-
-  .pagina{ 
-
-    display: flex; 
-
-    flex-direction: column; 
-
-    background-color: #ffffff; 
-
-    border-radius: 10px; 
-
-    padding: 40px; 
-
-  } 
-
-  
-
-  .form{ 
-    display: flex; 
-    flex-direction: column; 
-     width: 300px;
-    margin: 0 auto;
-  } 
-
-  p{ 
-
-    text-align: center; 
-
-    font-weight: bold; 
-
-  } 
-
-  .btn{ 
-
-    background-color: #4d5c17; 
-
-    font-weight: bold; 
-
-    color: #ffffff; 
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(138, 184, 157);
   }
 
-label {
+  h2 {
+    text-align: center;
+    color: #ffff
+  }
+
+  form {
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  label {
     display: block;
     margin-bottom: 5px;
     color: #ffff
   }
-input[type="submit"] {
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #5e285b;
+    background-color: #183429;
     color: #fff;
     border: none;
     cursor: pointer;
   }
 
-input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #5e285b;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+  input[type="submit"]:hover {
+    background-color: #183429;
   }
-
-.form a{
-    color: #000000;
-}
-
-.form a:hover{
-    color: green;
-}
 
